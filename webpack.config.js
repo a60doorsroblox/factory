@@ -16,7 +16,7 @@ const config = {
 
         new WebpackPwaManifest({
             name: 'WebXR PWA Example',
-            short_name: 'WebXRPWA',
+            short_name: 'WebXR PWA',
             description: 'WebXR PWA Example for factory environment',
             // start_url: ".",
             background_color: "#fff",
@@ -52,7 +52,7 @@ const config = {
 
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         publicPath: '',
         clean: true,
     },
